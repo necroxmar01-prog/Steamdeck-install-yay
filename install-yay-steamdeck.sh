@@ -18,7 +18,7 @@ sudo pacman -S --noconfirm base-devel linux-api-headers libarchive openssl git g
 echo "Clonando y compilando yay..."
 cd /tmp
 rm -rf yay
-git clone https://archlinux.org
+git clone https://aur.archlinux.org/yay.git
 cd yay
 
 # 5. Compilar e instalar
